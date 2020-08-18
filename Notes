@@ -5,7 +5,7 @@ cout<<fixed<<setprecision(4)<<n<<endl;
 
 ————————————————————————————————————————————————
 #   全排列函数 next_permutation #
-![image]()
+![image](https://raw.githubusercontent.com/CQ-Quest/STL/master/2I4WURB%7ECA85%7B%24Q%252WV3D4W.png)
 #include<iostream>
 #include<cstring>
 #include<algorithm>
@@ -36,5 +36,5 @@ srand((unsigned)time(NULL));     //保证随机分配种子(在循环之外)
    i=rand()%100+1;             //从0到100随机取数
    
    
-——————————————————————————————————————————————————
+———————————————————————————————————————————————————————
    
