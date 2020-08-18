@@ -1,11 +1,16 @@
-#  输出小数点后精准位数 #
-#include<iomanip>    //流操作符头文件,如输出4位
-cout<<fixed<<setprecision(4)<<n<<endl;    
+#  输出小数点后精准位数 #  
+
+#include<iomanip>    //流操作符头文件,如输出4位  
+   
+cout<<fixed<<setprecision(4)<<n<<endl;  
+
 
 
 ————————————————————————————————————————————————
-#   全排列函数 next_permutation #
-![image](https://raw.githubusercontent.com/CQ-Quest/STL/master/2I4WURB%7ECA85%7B%24Q%252WV3D4W.png)
+#   全排列函数 next_permutation #  
+
+![image](https://raw.githubusercontent.com/CQ-Quest/STL/master/2I4WURB%7ECA85%7B%24Q%252WV3D4W.png)  
+
 #include<iostream>
 #include<cstring>
 #include<algorithm>
@@ -26,7 +31,8 @@ int main(){
 
 
 ——————————————————————————————————————————————————
-#  概率随机数  #
+#  概率随机数  #  
+
 #include<ctime>
 srand((unsigned)time(NULL));     //保证随机分配种子(在循环之外)
  for(int i=1;i<=10;i++)
