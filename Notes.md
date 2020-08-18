@@ -9,7 +9,7 @@ cout<<fixed<<setprecision(4)<<n<<endl;
 ————————————————————————————————————————————————
 #   全排列函数 next_permutation #  
 
-![image](https://raw.githubusercontent.com/CQ-Quest/STL/master/2I4WURB%7ECA85%7B%24Q%252WV3D4W.png)  
+![image](https://github.com/CQ-Quest/STL/blob/master/2I4WURB%7ECA85%7B%24Q%252WV3D4W.png)  
 
 #include<iostream>
 #include<cstring>
