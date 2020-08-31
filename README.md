@@ -36,3 +36,15 @@ srand((unsigned)time(NULL));     //保证随机分配种子(在循环之外)
    
 ———————————————————————————————————————————————————————
    
+# 字符串处理
+
+     getline(cin,str)等同于cin.getline(str,x).其中x为要读取的元素个数
+     strlen()、strcpy()等字符串处理函数，只有字符串数组可以用；
+     size()、length()是string类的方法，只有string类可以用。
+     size()与length()完全等同，遇到空字符不会被截断，可以返回字符串真实长度；
+     strlen()遇到空字符串会被截断，无法返回字符串真实长度。
+     对字符串后四位特殊处理，从而得到年份
+     string类中的substr()函数：截取字符串中的子串。如：
+
+       string s1=s.substr(4);    //从下标4开始一直到结束
+       string s2=s.substr(5,3);    //从下标5开始，3个字符
