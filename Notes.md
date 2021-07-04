@@ -52,9 +52,11 @@ b.元素是结构体
       for(i=0;i<v.size();i++)
       cout<<v[i]<<endl;
 
-(6)元素反向排列与排序             (头文件 #include《algorithm》)  
+(6)元素反向排列与排序            
 
       反向排列：reverse(v.begin(),v.end());
       排序：
       sort(v.begin(),v.end());                升序
       sort(v.begin(),v.end()，cmp);        根据排序函数cmp排序 
+
+3.map,unordered_map
